@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- SweetAlert2 CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+    <title>Voucher Claim</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Voucher Claim System</h1>
+
+    <!-- Input Fields for Each Website -->
+    <div class="input-container">
+      <label for="voucher1">Green Chilli:</label>
+      <input
+        type="text"
+        id="voucher1"
+        placeholder="Enter voucher code of GreenChilli"
+      />
+      <button onclick="fetchData('sheet1', 'voucher1')">Fetch Data</button>
+    </div>
+
+    <!-- Display Data Here -->
+   
+
+    <script src="script.js"></script>
+  </body>
+</html>
